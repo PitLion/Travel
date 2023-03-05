@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <link rel="icon" href="assets/favicon.ico">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,400;1,700&family=Magra:wght@700&family=Red+Hat+Text:wght@500&display=swap" rel="stylesheet">
+      <title>Travel</title>
+      <script src="js/index.js"></script>
+    </head>
+
+    <body>
+      <div class="page">
+        <header class="header">
+          <div class="holder">
+            <div class="logo">
+              <p><img src="assets/Vector.svg" alt="Logo">Travel Portal</p>
+              <div class="logo-mini"><img src="assets/Vector.svg" alt="Logo"></div>
+            </div>
+
+            <nav class="nav nav-active">
+              <ul class="list">
+                <li class="nav-item">
+                  <a href="#one" class="header__link js-scroll">How It Works</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#two" class="header__link js-scroll">Plan Your Trip</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#three" class="header__link js-scroll">Destinations</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#four" class="header__link js-scroll">Travel Stories</a>
+                </li>
+                <li class="nav-item hidden">
+                  <a href="#five" class="header__link js-scroll" id="open-small-pop-up">Account</a>
+                </li>
+                <li class="nav-item hidden">
+                  <a href="#six" class="header__link js-scroll">Social Media</a>
+                </li>
+              </ul>
+              <div class="nav-close">
+                <span class="close-line"></span>
+                <span class="close-line"></span>
+              </div>
+            </nav>
+
+            <div class="btn">
+              <form>
+                <button class="login"><a href="#" id="open-pop-up">Login</a></button>
+               </form>
+            </div>
+
+            <div class="header-burger burger">
+              <span class="burger-line burger-line-first"></span>
+              <span class="burger-line burger-line-second"></span>
+              <span class="burger-line burger-line-third"></span>
+            </div>
+          </div>
+
+          <div class="pop-up" id="pop-up">
+              <div class="pop-up-container">
+                <div class="pop-up-body">
+                  <h1 class="pop-up-heading">Log in to your account</h1>
+                  <div class="face-but">
+                    <img src="assets/Facebook Logo.png" alt="Logo Facebook">
+                    <p class="face-text">Sign In with Facebook</p>
+                  </div>
+                  <div class="google-but">
+                    <img src="assets/Google Logo.png" alt="Logo Google">
+                    <p class="google-text">Sign In with Google</p>
+                  </div>
+
+                  <form class="my-form" action="#">
+                    <fieldset class="field">
+                      <legend>or</legend>
+                      <p class="field-text1">E-mail</p>
+                      <input class="pop-input" type="email" id="mail">
+                      <p class="field-text2">Password</p>
+                      <input class="pop-input" type="password" id="password">
+                      <div class="btn-form" id="show-alert">
+                        <button class="pop-up-login">Sign In</button>
+                      </div>
+                      <p class="text-btn">Forgot Your Password?</p>
+                    </fieldset>
+                    <div class="active-btn-field">
+                      <p>Don&rsquo;t have an account? <b><a class="active-btn" href="#" id="open-up-pop-up">Register</a></b></p>
+                    </div>
+                  </form>
+
+                </div>
+              </div>
+          </div>
+
+          <div class="up-pop-up" id="up-pop-up">
+            <div class="up-pop-up-body">
+              <h1 class="pop-up-heading">Create account</h1>
+              <form class="my-form" action="#">
+                <fieldset class="field">
+                  <p class="field-text1">E-mail</p>
+                  <input class="pop-input" type="email" id="up-mail">
+                  <p class="field-text2">Password</p>
+                  <input class="pop-input" type="password" id="up-pass">
+                  <div class="btn-form" id="up-alert">
+                    <button class="pop-up-login">Sign In</button>
+                  </div>
+                </fieldset>
+                <div class="active-btn-field">
+                  <p>Already have an account? <span><b>Log in</b></span></p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </header>
+
+        <main class="main" id="pop-up-close">
+          <section class="preview" id="one">
+            <h1 class="caption">Explore the beauty of the World</h1>
+            <p class="text">Receive personalized recommendations for countries, hotels, activities and more</p>
+            <div class="search">
+              <p>What would you like to do?</p>
+              <div class="btn2">
+                <form>
+                  <button class="login">Start Planning</button>
+                 </form>
+              </div>
+            </div>
+          </section>
+
+          <section class="steps" id="two">
+            <h2 class="heading">3 STEPS TO THE PERFECT TRIP</h2>
+            <div class="box">
+              <div class="box1">
+                <div>
+                  <img src="assets/Vector(0).svg" alt="Logo">
+                </div>
+                <p>Tell us what you want to do</p>
+              </div>
+              <div class="box2">
+                <div>
+                  <img src="assets/Vector(1).svg" alt="Logo">
+                </div>
+                <p>Share us preferable dates</p>
+              </div>
+              <div class="box3">
+                <div>
+                  <img src="assets/Vector(2).svg" alt="Logo">
+                </div>
+                <p>We will give you recommendations</p>
+              </div>
+            </div>
+          </section>
+
+          <section class="destinations" id="three">
+            <h2 class="heading">POPULAR DESTINATIONS</h2>
+
+            <div class="wrapper" id="viewport">
+
+             <div class="slider" style="left: -35.5%">
+              <div class="slide">
+                <img src="assets/Rectangle2.jpg" alt="Photo">
+                <p class="slideText">SPAIN</p>
+              </div>
+              <div class="slide">
+                <img src="assets/Rectangle1.jpg" alt="Photo">
+                <p class="slideText">JAPAN</p>
+              </div>
+              <div class="slide">
+                <img src="assets/Rectangle3.jpg" alt="Photo">
+                <p class="slideText">USA</p>
+              </div>
+             </div>
+
+             <div class="prev" id="prev"></div>
+             <div class="next" id="next"></div>
+            </div>
+
+            <div class="control" id="viewSlider">
+              <div class="control1 viewSlide"></div>
+              <div class="control2 viewSlide"></div>
+              <div class="control3 viewSlide"></div>
+            </div>
+
+            <div class="wrapper-mini" id="viewport-mini">
+             <div class="slider-mini" style="left: 0%">
+              <div class="slide-mini">
+                <img src="assets/Spain.jpg" alt="Photo">
+                <p class="slideText-mini">SPAIN</p>
+              </div>
+              <div class="slide-mini">
+                <img src="assets/Japan.jpg" alt="Photo">
+                <p class="slideText-mini">JAPAN</p>
+              </div>
+              <div class="slide-mini">
+                <img src="assets/USA.jpg" alt="Photo">
+                <p class="slideText-mini">USA</p>
+              </div>
+             </div>
+
+             <a class="prev-mini" id="prev-mini">&#10094</a>
+             <a class="next-mini" id="next-mini">&#10095</a>
+
+             <div class="control-mini" id="viewSlider-mini">
+              <div class="control1-mini viewSlide-mini"></div>
+              <div class="control2-mini viewSlide-mini"></div>
+              <div class="control3-mini viewSlide-mini"></div>
+             </div>
+            </div>
+
+            <div class="btn3">
+              <form>
+                <button class="login"><img src="assets/Vector3.svg" alt="Logo">Find More</button>
+              </form>
+            </div>
+          </section>
+
+          <section class="stories" id="four">
+            <h2 class="heading">TRAVEL STORIES</h2>
+            <div class="wrap">
+              <div class="part">
+                <div class="bg1"><img src="assets/Rectangle29.jpg" alt="Stories"></div>
+                <div class="story">
+                  <h3>10 Photos of Attractive Thailand</h3>
+                  <p lang="la">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                    <b><a href="#">Read More</a></b>
+                  </p>
+                </div>
+              </div>
+
+              <div class="part">
+                <div class="bg2"><img src="assets/Rectangle30.jpg" alt="Stories"></div>
+                <div class="story">
+                  <h3>Canyonlands National Park, Utah</h3>
+                  <p lang="la">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                    <b><a href="#">Read More</a></b>
+                  </p>
+                </div>
+              </div>
+
+              <div class="part">
+                <div class="bg3"><img src="assets/Rectangle31.jpg" alt="Stories"></div>
+                <div class="story">
+                  <h3>I left my heart in the Mountains!</h3>
+                  <p lang="la">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                    <b><a href="#">Read More</a></b>
+                  </p>
+                </div>
+              </div>
+
+              <div class="part">
+                <div class="bg4"><img src="assets/Rectangle32.jpg" alt="Stories"></div>
+                <div class="story">
+                  <h3>The Longest journey in my life!</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                    <b><a href="#">Read More</a></b>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="btn3">
+              <form>
+                <button class="login"><img src="assets/Vector3.svg" alt="Logo">See More</button>
+              </form>
+            </div>
+          </section>
+        </main>
+
+        <footer class="footer">
+          <p>All Rights Reserved © Travel Portal</p>
+          <ul class="icons">
+            <li class="social1">
+              <a href="https://github.com/PitLion"><img src="assets/Vector10.svg" alt="Link"></a>
+            </li>
+            <li class="social2">
+                <a href="https://rs.school/js/"><img src="assets/Vector30.svg" alt="Link"></a>
+            </li>
+            <li class="social3">
+              <a href="https://rs.school/js-stage0/"><img src="assets/Vector40.svg" alt="Link"></a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+
+      <script src="js/main.js"></script>
+
+    </body>
+  </html>
